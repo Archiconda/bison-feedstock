@@ -1,14 +1,19 @@
 About bison
 ===========
 
+[![Powered by NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](http://numfocus.org)
+
 Home: https://www.gnu.org/software/bison/
 
-Package license: GPL-3.0
+Package license: GPL 3
 
 Feedstock license: BSD 3-Clause
 
 Summary: General purpose parser generator converting annotated context-free grammar to a deterministic LR/GLR parser.
 
+Bison is a general-purpose parser generator that converts an annotated
+context-free grammar into a deterministic LR or generalized LR (GLR) parser
+employing LALR(1) parser tables.
 
 
 Current build status
@@ -16,6 +21,7 @@ Current build status
 
 [![Linux](https://img.shields.io/circleci/project/github/conda-forge/bison-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/bison-feedstock)
 [![OSX](https://img.shields.io/travis/conda-forge/bison-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/bison-feedstock)
+[![linux-aarch64](https://img.shields.io/shippable/5c310304c05bae0700d2e076/aarch64.svg?label=linux-aarch64)](https://app.shippable.com/github/Archiconda/bison-feedstock)
 ![Windows disabled](https://img.shields.io/badge/Windows-disabled-lightgrey.svg)
 
 Current release info
@@ -104,3 +110,11 @@ In order to produce a uniquely identifiable distribution:
  * If the version of a package **is** being increased, please remember to return
    the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
    back to 0.
+
+Feedstock Maintainers
+=====================
+
+* [@jakirkham](https://github.com/jakirkham/)
+* [@mingwandroid](https://github.com/mingwandroid/)
+* [@ocefpaf](https://github.com/ocefpaf/)
+
